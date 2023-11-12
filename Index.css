@@ -30,3 +30,21 @@
     border-radius: 200px;
     margin: 15px 15px 15px 15px;
 }
+
+.Funcionalidades{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 99, 71);
+    width: auto;
+}
+
+li{
+    display: inline;
+    margin: 0 0 250px 200px ;
+}
+
+.Funcionalidades .navbar ul li a:hover{
+    color: aliceblue;
+}
