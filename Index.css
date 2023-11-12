@@ -1,0 +1,32 @@
+.Encabezado{
+    background-color: rgb(255, 99, 71);
+    display: flex;
+}
+
+.Logo, .Imagen_1{
+    border-radius: 200px;
+    margin: 15px 15px 15px 15px;
+    float: left;
+}
+
+.Nombre{
+    text-align: center;
+    margin-left: 20px;
+    width: 12000px;
+    margin-top: 55px;
+    font-size: 25px;
+    line-height: 3.5px;
+}
+
+.Login{
+    float: right;
+    justify-content: end;
+    margin: 15px 15px 15px 15px;
+    text-align: center;
+}
+.Imagen_2{
+    width: 150px;
+    height: 150px;
+    border-radius: 200px;
+    margin: 15px 15px 15px 15px;
+}
