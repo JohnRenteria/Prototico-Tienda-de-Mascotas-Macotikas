@@ -83,3 +83,22 @@ img{
     margin-top: 50px;
     margin-right: 100px;
 }
+.producto { 
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.txt{
+    margin-right: 400px;
+}
+
+.imagen{
+    border-radius: 50%;
+    width: 250px;
+    height:200px;
+    
+
+
+}
