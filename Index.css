@@ -1,16 +1,23 @@
 .Encabezado{
-    background-color: rgb(255, 99, 71);
+    background-color: rgb(248, 215, 209);
+    width: 100%;
     display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
 }
 
 .Logo, .Imagen_1{
     border-radius: 200px;
-    margin: 15px 15px 15px 15px;
-    float: left;
+    margin: 35px 35px 35px 35px;
+
 }
 
 .Encabezado .Login a:hover{
-    color: aliceblue;
+    color: rgb(10, 10, 10);
+    text-decoration: none;
 }
 
 .Imagen_1{
@@ -21,17 +28,21 @@
 .Nombre{
     text-align: center;
     margin-left: 20px;
-    width: 12000px;
-    margin-top: 55px;
-    font-size: 25px;
-    line-height: 3.5px;
+    margin-right: 10px;
+    width: 720px;
+    margin-top: 50px;
+    font-size: 35px;
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .Login{
     float: right;
     justify-content: end;
-    margin: 15px 15px 15px 15px;
+    margin: 10px 10px 10px 10px;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
 }
 
 .Imagen_2{
@@ -39,28 +50,173 @@
     height: 100px;
     border-radius: 200px;
     margin: 15px 15px 15px 15px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
 }
 
 .Funcionalidades{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(255, 99, 71);
-    width: auto;
+    background-color: rgb(125, 130, 98);
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 li{
-    display: inline;
-    margin: 0 0 250px 200px ;
+    display:inline-flex;
+    margin: 0px 20px 20px 130px ;
+    text-align:justify;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 1px;
 }
 
 .Funcionalidades .navbar ul li a:hover{
-    color: aliceblue;
+    color: rgb(10, 10, 10);
+    text-decoration: none;
 }
 
+
+
+.Descripcion{
+    background-color: rgb(187, 238, 170);
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+
+}
+
+.Imagenes1{
+    width: 300px;
+    height: 200px;
+    border-radius: 0.4rem;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+    float: left;
+}
+
+.texto1{
+    margin-left: 30px;
+    margin-top: 30px;
+    float: right;
+    width: 1000px;
+    text-align: center;
+    justify-content:center;
+}
+ .Texto{
+    line-height:15px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content:center;
+ }
+
+h5{
+    text-align:right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img{
+    width: 10px;
+}
+
+
+.Tabla{
+    background-color:rgb(225, 240, 242);
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.Texto2{
+    width: 1500px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Imagenes2{   
+    width: 300px;
+    height: 200px;
+    border-radius: 0.4rem;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+.Peluqueria{   
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-right: 40px;
+    float:left; 
+}
+
+.Veterinaria{   
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+    float:inline-start 
+}
+
+.Adopcion{   
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+    float:right; 
+}
+.img{
+    width: 250px;
+}
+
+
+.producto{
+    background-color:rgb(176, 233, 219);
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.txt{
+    margin-left: 20px;
+    margin-top: 5px;
+    float: left;
+    width: 1000px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Imagenes{
+    height: 200px;
+    border-radius: 100%;
+    width: 200px;
+    margin: 30px;
+}
+
+
 .Footer{
-    background-color:aquamarine;
+    background-color:rgb(248, 215, 209);
+    width: 100%;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .Informacion{
@@ -71,6 +227,7 @@ li{
 .Contactenos{
     float: left;
     width: 850px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .Redes_Sociales{
@@ -82,23 +239,60 @@ img{
     height: 50px;
     margin-top: 50px;
     margin-right: 100px;
+    float: inline-start;
 }
-.producto { 
-    background-color: aquamarine;
+
+button {
+    background-color: #47a386;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 25px;
+    margin-top: 15px;
+  }
+  
+.modal-container {
     display: flex;
+    background-color: rgba(0, 0, 0, 0.3);
     align-items: center;
     justify-content: center;
-    
-}
-.txt{
-    margin-right: 400px;
-}
+    position: fixed;
+    pointer-events: none;
+    opacity: 0;  
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    transition: opacity 0.3s ease;
+  }
+  
+.show {
+    pointer-events: auto;
+    opacity: 1;
+  }
+  
+.modal {
+    background-color: #fff;
+    width: 600px;
+    max-width: 100%;
+    padding: 30px 50px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+.modal h1 {
+    margin: 0;
+  }
+  
+.modal p {
+    opacity: 0.7;
+    font-size: 14px;
+  }
 
-.imagen{
-    border-radius: 50%;
-    width: 250px;
-    height:200px;
-    
-
-
-}
+#map{
+    width: 600px;
+    height: 500px;
+  }
